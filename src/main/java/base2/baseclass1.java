@@ -15,7 +15,7 @@ public class baseclass1 {
 	{
 		System.out.println("Before suite");
 	}
-	@BeforeTest
+	@BeforeTest   //It will run before the first @Test
 	public void Before_Test()
 	{
 		System.out.println("Before test");
