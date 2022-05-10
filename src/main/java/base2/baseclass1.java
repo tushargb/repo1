@@ -33,7 +33,7 @@ public class baseclass1 {
 		System.out.println("After method");
 	}
 	
-	@AfterTest
+	@AfterTest  //It will run after all @Test
 	public void After_Test()
 	{
 		System.out.println("After test");
