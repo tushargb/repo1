@@ -27,7 +27,7 @@ public class baseclass1 {
 		System.out.println("Before method");
 	}
 	
-	@AfterMethod
+	@AfterMethod  //It will be applicaple for every @Test
 	public void After_Method()
 	{
 		System.out.println("After method");
