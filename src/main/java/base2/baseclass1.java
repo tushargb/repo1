@@ -39,7 +39,7 @@ public class baseclass1 {
 		System.out.println("After test");
 	}
 
-	@AfterSuite
+	@AfterSuite   //It will run after suite
 	public void After_Suite()
 	{
 		System.out.println("After suite");
